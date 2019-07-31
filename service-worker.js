@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/form-sending-imitation-/precache-manifest.ca8a518d9d606461130b7b833ad1523e.js"
+  "/form-sending-imitation-/precache-manifest.bf485413ad10e7efea39d9a0a7907c51.js"
 );
 
 self.addEventListener('message', (event) => {
