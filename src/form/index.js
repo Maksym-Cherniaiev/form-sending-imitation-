@@ -3,6 +3,10 @@ import React from "react";
 import "./skeleton.sass";
 import "./index.sass";
 
+import Email from "./assets/Email";
+import Subject from "./assets/Subject";
+import Text from "./assets/Text";
+
 class From extends React.Component {
   render() {
     return(
@@ -11,15 +15,13 @@ class From extends React.Component {
           <h2>Send New Email</h2>
         </header>
         <form className="form">
-          <label>To:</label>
-          <input></input>
-          <label>Subject:</label>
-          <input></input>
-          <textarea className="form_user-text" placeholder="Message"></textarea>
+          <Email></Email>
+          <Subject></Subject>
+          <Text></Text>
           <div></div>
           <div className="buttons">
-            <button>send</button>
-            <button>reset</button>
+            <button className="send-button" disabled={ true }>send</button>
+            <button className="reset-button">reset</button>
           </div>
         </form>
       </section>
